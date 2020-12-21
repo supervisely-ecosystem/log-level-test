@@ -1,6 +1,10 @@
 import time
+import os
 import supervisely_lib as sly
+
 if __name__ == "__main__":
+    print("LOGLEVEL = ", os.environ.get('LOGLEVEL', "NOT DEFINED"))
+    
     print("trace logs...")
     for i in range(5):
         time.sleep(0.3)
