@@ -3,8 +3,8 @@ import os
 import supervisely_lib as sly
 
 if __name__ == "__main__":
-    print("LOGLEVEL=", os.environ.get('LOGLEVEL', "NOT DEFINED"))
-    print("logger.level =", sly.logger.level)
+    print(f"LOGLEVEL={os.environ.get('LOGLEVEL', 'NOT DEFINED')}")
+    print(f"logger.level ={sly.logger.level}")
     
     print("trace logs...")
     for i in range(5):
