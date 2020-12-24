@@ -24,7 +24,7 @@ if __name__ == "__main__":
     print("warn logs...")
     for i in range(5):
         time.sleep(0.3)
-        sly.logger.info(f"warn {i}")
+        sly.logger.warn(f"warn {i}")
     sly.logger.critical("crucial")
 
     time.sleep(60 * 60) # sleep one hour
