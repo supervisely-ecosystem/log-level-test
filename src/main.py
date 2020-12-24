@@ -1,11 +1,13 @@
 import time
 import os
+import pprint
 import supervisely_lib as sly
-
+from supervisely_lib.sly_logger import LOGGING_LEVELS
 
 if __name__ == "__main__":
     print(f"LOGLEVEL={os.environ.get('LOGLEVEL', 'NOT DEFINED')}")
-    print(f"logger.level ={sly.logger.level}")
+    print(f"logger.level = {sly.logger.level}")
+    pprint.pprint(LOGGING_LEVELS)
 
     print("trace logs...")
     for i in range(5):
