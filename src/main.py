@@ -27,4 +27,4 @@ if __name__ == "__main__":
         sly.logger.warn(f"warn {i}")
     sly.logger.critical("crucial")
 
-    time.sleep(60 * 60) # sleep one hour
+    #time.sleep(60 * 60) # sleep one hour
