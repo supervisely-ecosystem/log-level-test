@@ -10,6 +10,7 @@
   "modal_template_state": {},
   "task_location": "workspace_tasks",
   "isolate": true,
+  "headless": true,
   "icon": "https://img.icons8.com/color/96/000000/event-log.png",
   "icon_background": "#FFFFFF"
 }
