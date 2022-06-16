@@ -2,7 +2,7 @@
   "name": "Log level test",
   "type": "app",
   "categories": [
-    "dev"
+    "development"
   ],
   "description": "dev test",
   "docker_image": "supervisely/base-py-sdk:6",
