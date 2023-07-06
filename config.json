@@ -11,6 +11,6 @@
   "task_location": "workspace_tasks",
   "isolate": true,
   "headless": true,
-  "icon": "https://img.icons8.com/color/96/000000/event-log.png",
+  "icon": "https://github.com/supervisely-ecosystem/log-level-test/assets/48245050/c589aa3d-06bc-4ba1-9bd4-a5ec41eddd5d",
   "icon_background": "#FFFFFF"
 }
